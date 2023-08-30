@@ -6,5 +6,5 @@ jobs:
     name: os setup?
     runs-on: ubuntu-latest
     steps:
-      -name : do nothing of use
+      name : do nothing of use
       run: cat hello.d > bye.d
