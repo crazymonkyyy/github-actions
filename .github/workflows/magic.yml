@@ -8,3 +8,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: cat hello.d > bye.d
+      - name: attempt to install compiler
+      uses: dlang-community/setup-dlang@v1
+      with:
+        compiler: dmd-latest
+      - run: cat bye.d
