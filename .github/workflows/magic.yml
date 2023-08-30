@@ -15,3 +15,5 @@ jobs:
           compiler: dmd-latest
             
       - run: cat bye.d
+      - run: dmd bye.d
+      - run: dmd -run hello.d
