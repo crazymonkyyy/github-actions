@@ -4,10 +4,6 @@ on: push
 jobs:
   test:
     name: os setup?
-    strategy:
-      matrix:
-        os: ubuntu-latest
-        dc: dmd-latest
     runs-on: ubuntu-latest
     steps:
       -name : do nothing of use
