@@ -2,7 +2,7 @@ name: dothings
 on: push
 
 jobs:
-  dothings:
+  test:
     name: os setup?
       strategy:
         matrix:
