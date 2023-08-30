@@ -10,7 +10,5 @@ jobs:
         dc: dmd-latest
     runs-on: ubuntu-latest
     steps:
-      -name : run hello world?
-      run: dmd -run hello.d >out
       -name : do nothing of use
       run: cat hello.d > bye.d
